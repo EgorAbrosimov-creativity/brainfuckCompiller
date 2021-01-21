@@ -1,0 +1,18 @@
+compiler/brainfuck/Analyzer.java
+ compiler.brainfuck.Analyzer
+compiler/brainfuck/Memory.java
+ compiler.brainfuck.Memory
+compiler/brainfuck/commands/Command.java
+ compiler.brainfuck.commands.Command
+compiler/brainfuck/commands/PrintCarriageChar.java
+ compiler.brainfuck.commands.PrintCarriageChar
+compiler/brainfuck/commands/Decrement.java
+ compiler.brainfuck.commands.Decrement
+compiler/brainfuck/commands/Increment.java
+ compiler.brainfuck.commands.Increment
+compiler/brainfuck/Main.java
+ compiler.brainfuck.Main
+compiler/brainfuck/commands/MoveLeft.java
+ compiler.brainfuck.commands.MoveLeft
+compiler/brainfuck/commands/MoveRight.java
+ compiler.brainfuck.commands.MoveRight
