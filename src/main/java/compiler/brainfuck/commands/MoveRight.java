@@ -10,7 +10,8 @@ public class MoveRight extends Command{
     }
 
     @Override
-    public void execute() throws Exception {
+    public String execute() throws Exception {
         Memory.moveCarriageRight();
+        return "";
     }
 }

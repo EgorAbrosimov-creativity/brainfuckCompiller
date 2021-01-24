@@ -36,14 +36,16 @@ public final class Memory {
 
     public static void moveCarriageLeft() throws Exception {
         if(carriageAt - 1 < 0)
-            throw new Exception("Carriage out of range!");
+            //throw new Exception("Carriage out of range!");
+            System.out.println("123");
         else
             carriageAt -= 1;
     }
 
     public static void moveCarriageRight() throws Exception {
         if (carriageAt + 1 >= memoryKeeper.length)
-            throw new Exception("Carriage out of range");
+            //throw new Exception("Carriage out of range");
+            System.out.println("132");
         else carriageAt += 1;
     }
 

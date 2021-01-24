@@ -9,6 +9,6 @@ public abstract class Command {
         this.memory = Memory.getInstance();
     }
 
-    public abstract void execute() throws Exception;
+    public abstract String execute() throws Exception;
     // Эксепшоны отхендлитьб
 }

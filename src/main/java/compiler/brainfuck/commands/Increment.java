@@ -10,7 +10,8 @@ public class Increment extends Command{
     }
 
     @Override
-    public void execute() throws Exception {
+    public String execute() throws Exception {
         Memory.incCarriageAt();
+        return "";
     }
 }
